@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #e6e6e6;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  margin-top: 90px;
+}
+.sidebar .menu-item {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.sidebar .menu-item i {
+  margin-right: 10px;
+}
+.sidebar .search-box {
+  margin-bottom: 20px;
+}
+.sidebar .search-box input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  margin-top: 90px;
+}
+.content .form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.content .form input,
+.content .form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.form{
+  flex-direction: column;
+}
+.form button{
+  margin-left: 78%;
+  width: 10%;
+  right: 0;
+
+}
+.linea1{
+  width: 94%;
+  display: flex  ;
+  justify-content: flex-start;
+}
+.linea2{
+  width: 94%;
+  display: flex  ;
+  justify-content: flex-start;
+}
+.linea3{
+  width: 94%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.linea2 input{
+  width: 25%;
+}
+.linea3 input{
+  width: 25%;
+}
+
+.empleado{
+  width: 88.5%;
+
+  padding-right: 50%;
+
+}
+.content .form button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1 1 80%;
+}
+.content .table-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead{
+  width: 100%ss;
+}
+
+.content table,
+.content th,
+.content td {
+  border: 1px solid #ccc;
+}
+.content th,
+.content td {
+  text-align: left;
+}
+
+.content th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.icons{
+  position: absolute;
+  right: 0px;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.icons img{
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,59 @@
+.fondo {
+    position: fixed;
+    width: 50%;
+    height: 70%;
+    opacity: 0.1;
+    margin-left:40%;
+    top: 20%;
+    z-index: -10;
+
+}
+.header {
+    margin-bottom: 30px;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenUsuario {
+    position: absolute;
+    margin-top: 80px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 10px;
+    width: 250px;
+}
+.header .user-info {
+    display: flex;
+    align-items: center;
+}
+.header .user-info div {
+    margin-left: 10px;
+}
+.header .date {
+    font-size: 14px;
+}
+#TextoUsuario{
+    margin-left: 150px;
+}
+
+
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}

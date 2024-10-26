@@ -1,0 +1,5 @@
+id
+numero de empleado
+nombre
+apellido
+area

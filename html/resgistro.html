@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/registro.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="user-info">
+        <img
+          alt="User profile picture"
+          src="..//img/usuario.jpeg"
+          class="imagenUsuario"
+        />
+        <div>
+          <div id="TextoUsuario">Usuario :</div>
+          <img alt="Mazda logo" src="..//img/logo.jpeg" class="logo" />
+        </div>
+      </div>
+      <div class="date">
+        Tuesday 22
+        <sup> nd </sup>
+        October 2024
+      </div>
+
+      <div class="icons">
+        <a href=""><img src="../img/eliminar.jpeg" alt="eliminar" /> </a>
+        <a href=""> <img src="../img/crear.jpeg" alt="crear" /></a>
+
+        <a href=""><img src="../img/editar.jpeg" alt="editar" /></a>
+        <a href=""><img src="../img/modificar.jpeg" alt="modificar" /></a>
+      </div>
+    </div>
+    <div class="sidebar">
+      <a href="menu.html"> <img src="../img/nuevo.jpeg" alt="nuevo" /></a>
+      <div class="search-box">
+        <input placeholder="Search" type="text" />
+      </div>
+      <a href=""> <img src="../img/guardar.jpeg" alt="guardar" /></a>
+      <a href=""> <img src="../img/imprimir.jpeg" alt="imprimir" /></a>
+    </div>
+    <div class="content">
+      <div class="form">
+
+        <div class="linea1">
+            <input placeholder="Nombre de Empleado" type="text" class="empleado" />
+        </div>
+
+        <div class="linea2">
+          <input placeholder="Numero de folio" type="text" class="numero" />
+          <input
+            placeholder="Fecha de Prestamo"
+            type="text"
+            class="fechaPrestamo"
+          />
+          <input
+            placeholder="Fecha de Entrega"
+            type="text"
+            class="fechaEntrega"
+          />
+          <select>
+            <option>Entregado</option>
+            <option>Entregado</option>
+            <option>Entregado</option>
+            <option>Entregado</option>
+          </select>
+        </div>
+        <div class="linea3">
+          <input placeholder="SKU" type="text" class="sku" />
+          <input placeholder="Herramienta" type="text" class="herramienta" />
+          <input placeholder="Cantidad" type="text" class="cantidad" />
+        </div>
+
+        <button>Agregar</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre de Empleado</th>
+              <th>Numero de Folio</th>
+              <th>Fecha de Prestado</th>
+              <th>Fecha de Entrega</th>
+              <th>Estado</th>
+              <th>SKU</th>
+              <th>Herramienta</th>
+              <th>Cantidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Juan Luis </td>
+              <td>165432</td>
+              <td>25-10-2024</td>
+              <td>26-10-2024</td>
+              <td>Entregado</td>
+              <td>125</td>
+              <td>Taladro</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <img
+      alt="Large logo in the background"
+      height="400"
+      src="../img/fondo.png"
+      width="600"
+      class="fondo"
+    />
+    <div class="footer">
+      <div>Mensajeria</div>
+      <div>Server name:</div>
+      <div>Estatus de la Conexión</div>
+      <div>IP: 192.168.10.230</div>
+    </div>
+  </body>
+</html>
