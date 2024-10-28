@@ -27,8 +27,9 @@
 .logo{
     margin-left: 120px;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 250px;
+    z-index: -10;
 }
 .header .user-info {
     display: flex;

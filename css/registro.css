@@ -9,21 +9,11 @@ body {
   width: 200px;
   background-color: #e6e6e6;
   padding: 20px;
-  position: fixed;
-  height: 100%;
-  margin-top: 90px;
+  position: absolute;
+  height: 60vh;
+  margin-top: 40px;
 }
-.sidebar .menu-item {
-  background-color: #4a90e2;
-  color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 5px;
-}
-.sidebar .menu-item i {
-  margin-right: 10px;
-}
+
 .sidebar .search-box {
   margin-bottom: 20px;
 }
@@ -34,6 +24,12 @@ body {
   border: 1px solid #ccc;
 }
 
+.sidebar a{
+  width: 100%;
+}
+.sidebar img{
+  width: 100%;
+}
 
 .content {
   margin-left: 220px;
@@ -136,6 +132,11 @@ thead{
   right: 0px;
   margin-top: 100px;
   margin-right: 40px;
+  
+}
+.icons a{
+  height: 50px;
+  width: 50px;
 }
 .icons img{
   height: 50px;
