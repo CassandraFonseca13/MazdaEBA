@@ -58,3 +58,6 @@
     width: 100%;
     
 }
+.clickeable{
+    cursor: pointer;
+}

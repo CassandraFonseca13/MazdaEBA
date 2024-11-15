@@ -1,0 +1,9 @@
+id
+nombre_empleado
+numero_folio
+fecha_prestamo
+fecha_entrega
+estado
+sku
+herramienta
+cantidad 
